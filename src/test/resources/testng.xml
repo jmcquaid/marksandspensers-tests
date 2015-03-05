@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DMLabelRegression">
+    <test name="CucumberTest">
+        <!--packages>
+            <package name="com.metapack.*">
+                <exclude name="com.metapack.dmlabelregression.bdd.*"></exclude>
+                <exclude name="com.metapack.dmlabelregression.api.*"></exclude>
+            </package>
+        </packages-->
+        <classes>
+            <class name="com.metapack.dmlabelregression.bdd.CucumberTest"/>
+        </classes>
+    </test>
+</suite>
